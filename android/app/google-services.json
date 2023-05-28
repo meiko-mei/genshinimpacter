@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "56262521758",
+    "project_id": "genshinimpacter-2222",
+    "storage_bucket": "genshinimpacter-2222.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:56262521758:android:4cb924f13f874ada8c1c8f",
+        "android_client_info": {
+          "package_name": "com.android.application"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMPY6BV2my9BWD-IdInqwyLJ4nrswWRq8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -3,6 +3,8 @@ import 'app_drawer.dart';
 import 'text_layout_ab.dart';
 import 'about_us.dart';
 import 'grid.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'package:firebase_storage/firebase_storage.dart';
 
 class HomeScreen extends StatelessWidget {
   HomeScreen({super.key});
@@ -29,10 +31,13 @@ class HomeScreen extends StatelessWidget {
               prefixIcon: Icon(Icons.search),
               border: OutlineInputBorder(),
             ),
+            onSubmitted: (value) {
+              // Perform a search using the value of the TextField
+            },
           ),
         ),
         Expanded(
-          child: MonkeyGrid(),
+          child: GenshinGrid(),
         )
       ]),
     );

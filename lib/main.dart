@@ -1,19 +1,30 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/home.dart';
 import 'about_us.dart';
 import 'home.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'package:firebase_storage/firebase_storage.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'test.dart';
 
-void main() => runApp(StaticApp());
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
+  bool connected = Firebase.apps.isNotEmpty;
+  print('firebase is connected: $connected');
+  runApp(StaticApp());
+}
 
 class StaticApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       home: HomeScreen(),
-      initialRoute: '/',
+      initialRoute: '/test',
       routes: {
-        '/home': (context) => HomeScreen(),
         '/aboutus': (context) => AboutUs(),
+        '/test': (context) => DetailsPage(
+              documentId: '',
+            )
       },
     );
   }

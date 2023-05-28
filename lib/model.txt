@@ -1,0 +1,57 @@
+// Balinas & Clamor BSIT 3-ST 
+
+Application Model
+
+Name: Diluc
+Region of Origin: Mondstadt
+Element: Pyro
+Weapon: Claymore
+Role: DPS
+
+Name: Childe
+Region of Origin: Liyue
+Element: Hydro
+Weapon: Bow
+Role: Sub DPS
+
+Name: Barbara
+Region of Origin: Mondstadt
+Element: Hydro
+Weapon: Catalyst
+Role: Healer
+
+Name: Zhongli
+Region of Origin: Liyue
+Element: Geo
+Weapon: Polearm
+Role: Support
+
+Name: Albedo
+Region of Origin: Mondstadt
+Element: Geo
+Weapon: Sword
+Role: Support
+
+Name: Amber
+Region of Origin: Mondstadt
+Element: Pyro
+Weapon: Bow
+Role: Support
+
+Name: Beidou
+Region of Origin: Liyue
+Element: Electro
+Weapon: Claymore
+Role: DPS
+
+Name: Chongyun
+Region of Origin: Liyue
+Element: Cryo
+Weapon: Claymore
+Role: Support
+
+Name: Diona
+Region of Origin: Mondstadt
+Element: Cryo
+Weapon: Bow
+Role: Healer
