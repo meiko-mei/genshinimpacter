@@ -21,7 +21,7 @@ class _DetailsPageState extends State<DetailsPage> {
 
   void fetchDataFromFirestore() async {
     DocumentSnapshot snapshot = await FirebaseFirestore.instance
-        .collection('your_collection')
+        .collection('Character')
         .doc(widget.documentId) // Use the provided documentId
         .get();
 
