@@ -32,12 +32,12 @@ class TextLayoutAboutUs extends StatelessWidget {
             padding: EdgeInsets.all(16.0),
             margin: EdgeInsets.symmetric(vertical: 1.0),
             child: Text(
-              "Embark on an extraordinary journey with Genshin Impacter, the ultimate mobile application that unveils the untold stories of your favorite characters in the immersive world of Genshin Impact. Dive deep into the captivating tales of these characters as you uncover their origins, fun facts, and untold secrets.",
+              "Discover the world of Genshin Impact characters with the Genshin Impacter app. Explore character profiles, including names, regions, weapons, elements, and stunning images. ",
               style: GoogleFonts.kanit(fontSize: 15),
             ),
           ),
           Image.asset(
-            '../assets/elements.png',
+            'assets/elements.png',
             height: 30,
             width: 500,
           ),
@@ -45,20 +45,7 @@ class TextLayoutAboutUs extends StatelessWidget {
             padding: EdgeInsets.all(16.0),
             margin: EdgeInsets.symmetric(vertical: 1.0),
             child: Text(
-              "But Genshin Impacter is more than just an application for character stories. It is your guide to mastering the art of team building and optimizing character performance. Discover the perfect synergy between characters and their respective artifact sets, unlocking their true potential on the battlefield. Unleash devastating combos, harness elemental powers, and witness your team composition ascend to greatness.",
-              style: GoogleFonts.kanit(fontSize: 15),
-            ),
-          ),
-          Image.asset(
-            '../assets/elements.png',
-            height: 30,
-            width: 500,
-          ),
-          Container(
-            padding: EdgeInsets.all(16.0),
-            margin: EdgeInsets.symmetric(vertical: 1.0),
-            child: Text(
-              "With an intuitive and user-friendly interface, Genshin Impacter empowers you to navigate through a treasure trove of knowledge effortlessly. Immerse yourself in the stunning visuals and immerse in the immersive lore as you dive deeper into the fascinating world of Teyvat.",
+              "Build your dream team and uncover the secrets of Teyvat's diverse roster. Enhance your gameplay and strategize with this essential companion. Download now and embark on an epic adventure.",
               style: GoogleFonts.kanit(fontSize: 15),
             ),
           ),

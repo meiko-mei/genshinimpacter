@@ -1,17 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:flutter_application_1/grid.dart';
 
 class DetailsPage extends StatefulWidget {
-  final String documentId; // Add documentId property
+  final String? documentId; // Add documentId property
 
-  const DetailsPage({Key? key, required this.documentId}) : super(key: key);
+  DetailsPage({Key? key, required this.documentId}) : super(key: key);
 
   @override
   _DetailsPageState createState() => _DetailsPageState();
 }
 
 class _DetailsPageState extends State<DetailsPage> {
-  Map<String, dynamic>? genshinData; // Variable to store fetched data
+  Map<String?, dynamic>? genshinData; // Variable to store fetched data
 
   @override
   void initState() {
@@ -47,7 +48,7 @@ class _DetailsPageState extends State<DetailsPage> {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text(genshinData!['name']),
+        title: Text(genshinData!['char_name ']),
       ),
       body: Center(
         child: Column(
@@ -57,20 +58,20 @@ class _DetailsPageState extends State<DetailsPage> {
               genshinData!['image'],
             ),
             Text(
-              genshinData!['name'],
+              genshinData!['char_name '],
               style: TextStyle(
                 fontSize: 18,
                 fontWeight: FontWeight.bold,
               ),
             ),
             Text(
-              'Region: ${genshinData!['region of origin']}',
+              'Region: ${genshinData!['region']}',
               style: TextStyle(
                 fontSize: 16,
               ),
             ),
             Text(
-              'Element: ${genshinData!['element']}',
+              'Element: ${genshinData!['elem']}',
               style: TextStyle(
                 fontSize: 16,
               ),

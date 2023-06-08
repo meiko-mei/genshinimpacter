@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'home.dart';
+import 'about_us.dart';
 
 Widget myDrawer(BuildContext context) {
   return Drawer(
@@ -6,8 +8,11 @@ Widget myDrawer(BuildContext context) {
       children: [
         const DrawerHeader(
           decoration: BoxDecoration(
-              color: Color.fromARGB(255, 255, 255, 255),
-              image: DecorationImage(image: AssetImage("../assets/gword.png"))),
+            color: Color.fromARGB(255, 255, 255, 255),
+            image: DecorationImage(
+              image: AssetImage("assets/gword.png"),
+            ),
+          ),
           child: Text(''),
         ),
         ListTile(

@@ -23,7 +23,7 @@ class AboutUs extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.center,
         children: <Widget>[
           Image.asset(
-            '../assets/gword.png',
+            'assets/gword.png',
             height: 100,
             width: 100,
           ),
